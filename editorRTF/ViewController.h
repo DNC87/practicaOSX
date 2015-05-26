@@ -1,5 +1,5 @@
 //
-//  Document.h
+//  ViewController.h
 //  editorRTF
 //
 //  Created by EPS on 26/05/15.
@@ -8,9 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Document : NSDocument
+@interface ViewController : NSViewController
 
-@property (nonatomic,strong) NSData *fileContents;
+- (IBAction)clear:(id)sender;
 
 @property (unsafe_unretained) IBOutlet NSTextView *textView;
 
