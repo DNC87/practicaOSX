@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD24604C1B14E77000E702C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24604B1B14E77000E702C3 /* Cocoa.framework */; };
+		AD2460561B14E77000E702C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD2460541B14E77000E702C3 /* InfoPlist.strings */; };
+		AD2460581B14E77000E702C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2460571B14E77000E702C3 /* main.m */; };
+		AD24605C1B14E77000E702C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AD24605A1B14E77000E702C3 /* Credits.rtf */; };
+		AD24605F1B14E77000E702C3 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24605E1B14E77000E702C3 /* Document.m */; };
+		AD2460621B14E77000E702C3 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2460601B14E77000E702C3 /* Document.xib */; };
+		AD2460651B14E77000E702C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2460631B14E77000E702C3 /* MainMenu.xib */; };
+		AD2460671B14E77000E702C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2460661B14E77000E702C3 /* Images.xcassets */; };
+		AD24606E1B14E77000E702C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24606D1B14E77000E702C3 /* XCTest.framework */; };
+		AD24606F1B14E77000E702C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24604B1B14E77000E702C3 /* Cocoa.framework */; };
+		AD2460771B14E77000E702C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD2460751B14E77000E702C3 /* InfoPlist.strings */; };
+		AD2460791B14E77000E702C3 /* editorRTFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2460781B14E77000E702C3 /* editorRTFTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD2460701B14E77000E702C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2460401B14E77000E702C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD2460471B14E77000E702C3;
+			remoteInfo = editorRTF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD2460481B14E77000E702C3 /* editorRTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = editorRTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD24604B1B14E77000E702C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AD24604E1B14E77000E702C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AD24604F1B14E77000E702C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD2460501B14E77000E702C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD2460531B14E77000E702C3 /* editorRTF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "editorRTF-Info.plist"; sourceTree = "<group>"; };
+		AD2460551B14E77000E702C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD2460571B14E77000E702C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD2460591B14E77000E702C3 /* editorRTF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "editorRTF-Prefix.pch"; sourceTree = "<group>"; };
+		AD24605B1B14E77000E702C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AD24605D1B14E77000E702C3 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		AD24605E1B14E77000E702C3 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		AD2460611B14E77000E702C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		AD2460641B14E77000E702C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AD2460661B14E77000E702C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD24606C1B14E77000E702C3 /* editorRTFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = editorRTFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD24606D1B14E77000E702C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD2460741B14E77000E702C3 /* editorRTFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "editorRTFTests-Info.plist"; sourceTree = "<group>"; };
+		AD2460761B14E77000E702C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD2460781B14E77000E702C3 /* editorRTFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editorRTFTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD2460451B14E77000E702C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD24604C1B14E77000E702C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2460691B14E77000E702C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD24606F1B14E77000E702C3 /* Cocoa.framework in Frameworks */,
+				AD24606E1B14E77000E702C3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD24603F1B14E77000E702C3 = {
+			isa = PBXGroup;
+			children = (
+				AD2460511B14E77000E702C3 /* editorRTF */,
+				AD2460721B14E77000E702C3 /* editorRTFTests */,
+				AD24604A1B14E77000E702C3 /* Frameworks */,
+				AD2460491B14E77000E702C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD2460491B14E77000E702C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD2460481B14E77000E702C3 /* editorRTF.app */,
+				AD24606C1B14E77000E702C3 /* editorRTFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD24604A1B14E77000E702C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD24604B1B14E77000E702C3 /* Cocoa.framework */,
+				AD24606D1B14E77000E702C3 /* XCTest.framework */,
+				AD24604D1B14E77000E702C3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD24604D1B14E77000E702C3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD24604E1B14E77000E702C3 /* AppKit.framework */,
+				AD24604F1B14E77000E702C3 /* CoreData.framework */,
+				AD2460501B14E77000E702C3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AD2460511B14E77000E702C3 /* editorRTF */ = {
+			isa = PBXGroup;
+			children = (
+				AD24605D1B14E77000E702C3 /* Document.h */,
+				AD24605E1B14E77000E702C3 /* Document.m */,
+				AD2460601B14E77000E702C3 /* Document.xib */,
+				AD2460631B14E77000E702C3 /* MainMenu.xib */,
+				AD2460661B14E77000E702C3 /* Images.xcassets */,
+				AD2460521B14E77000E702C3 /* Supporting Files */,
+			);
+			path = editorRTF;
+			sourceTree = "<group>";
+		};
+		AD2460521B14E77000E702C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD2460531B14E77000E702C3 /* editorRTF-Info.plist */,
+				AD2460541B14E77000E702C3 /* InfoPlist.strings */,
+				AD2460571B14E77000E702C3 /* main.m */,
+				AD2460591B14E77000E702C3 /* editorRTF-Prefix.pch */,
+				AD24605A1B14E77000E702C3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD2460721B14E77000E702C3 /* editorRTFTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD2460781B14E77000E702C3 /* editorRTFTests.m */,
+				AD2460731B14E77000E702C3 /* Supporting Files */,
+			);
+			path = editorRTFTests;
+			sourceTree = "<group>";
+		};
+		AD2460731B14E77000E702C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD2460741B14E77000E702C3 /* editorRTFTests-Info.plist */,
+				AD2460751B14E77000E702C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD2460471B14E77000E702C3 /* editorRTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD24607C1B14E77000E702C3 /* Build configuration list for PBXNativeTarget "editorRTF" */;
+			buildPhases = (
+				AD2460441B14E77000E702C3 /* Sources */,
+				AD2460451B14E77000E702C3 /* Frameworks */,
+				AD2460461B14E77000E702C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = editorRTF;
+			productName = editorRTF;
+			productReference = AD2460481B14E77000E702C3 /* editorRTF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD24606B1B14E77000E702C3 /* editorRTFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD24607F1B14E77000E702C3 /* Build configuration list for PBXNativeTarget "editorRTFTests" */;
+			buildPhases = (
+				AD2460681B14E77000E702C3 /* Sources */,
+				AD2460691B14E77000E702C3 /* Frameworks */,
+				AD24606A1B14E77000E702C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD2460711B14E77000E702C3 /* PBXTargetDependency */,
+			);
+			name = editorRTFTests;
+			productName = editorRTFTests;
+			productReference = AD24606C1B14E77000E702C3 /* editorRTFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD2460401B14E77000E702C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EPS;
+				TargetAttributes = {
+					AD24606B1B14E77000E702C3 = {
+						TestTargetID = AD2460471B14E77000E702C3;
+					};
+				};
+			};
+			buildConfigurationList = AD2460431B14E77000E702C3 /* Build configuration list for PBXProject "editorRTF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD24603F1B14E77000E702C3;
+			productRefGroup = AD2460491B14E77000E702C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD2460471B14E77000E702C3 /* editorRTF */,
+				AD24606B1B14E77000E702C3 /* editorRTFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD2460461B14E77000E702C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2460621B14E77000E702C3 /* Document.xib in Resources */,
+				AD2460671B14E77000E702C3 /* Images.xcassets in Resources */,
+				AD2460561B14E77000E702C3 /* InfoPlist.strings in Resources */,
+				AD24605C1B14E77000E702C3 /* Credits.rtf in Resources */,
+				AD2460651B14E77000E702C3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24606A1B14E77000E702C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2460771B14E77000E702C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD2460441B14E77000E702C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD24605F1B14E77000E702C3 /* Document.m in Sources */,
+				AD2460581B14E77000E702C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2460681B14E77000E702C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2460791B14E77000E702C3 /* editorRTFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD2460711B14E77000E702C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD2460471B14E77000E702C3 /* editorRTF */;
+			targetProxy = AD2460701B14E77000E702C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD2460541B14E77000E702C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2460551B14E77000E702C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD24605A1B14E77000E702C3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD24605B1B14E77000E702C3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AD2460601B14E77000E702C3 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2460611B14E77000E702C3 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		AD2460631B14E77000E702C3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2460641B14E77000E702C3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AD2460751B14E77000E702C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2460761B14E77000E702C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD24607A1B14E77000E702C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD24607B1B14E77000E702C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD24607D1B14E77000E702C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "editorRTF/editorRTF-Prefix.pch";
+				INFOPLIST_FILE = "editorRTF/editorRTF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD24607E1B14E77000E702C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "editorRTF/editorRTF-Prefix.pch";
+				INFOPLIST_FILE = "editorRTF/editorRTF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD2460801B14E77000E702C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/editorRTF.app/Contents/MacOS/editorRTF";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "editorRTF/editorRTF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "editorRTFTests/editorRTFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD2460811B14E77000E702C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/editorRTF.app/Contents/MacOS/editorRTF";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "editorRTF/editorRTF-Prefix.pch";
+				INFOPLIST_FILE = "editorRTFTests/editorRTFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD2460431B14E77000E702C3 /* Build configuration list for PBXProject "editorRTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD24607A1B14E77000E702C3 /* Debug */,
+				AD24607B1B14E77000E702C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD24607C1B14E77000E702C3 /* Build configuration list for PBXNativeTarget "editorRTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD24607D1B14E77000E702C3 /* Debug */,
+				AD24607E1B14E77000E702C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD24607F1B14E77000E702C3 /* Build configuration list for PBXNativeTarget "editorRTFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2460801B14E77000E702C3 /* Debug */,
+				AD2460811B14E77000E702C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD2460401B14E77000E702C3 /* Project object */;
+}
